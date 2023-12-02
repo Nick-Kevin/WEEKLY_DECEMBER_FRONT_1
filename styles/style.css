@@ -9,7 +9,7 @@
 
 body {
     background-color: var(--white-color);
-    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-family: "Open sans", roboto, Arial, Helvetica, sans-serif;
 }
 
 .display-none {
@@ -60,6 +60,42 @@ header ul li {
 
 main {
     padding-top: 99px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
 }
 
 p {
@@ -127,6 +163,10 @@ p {
 
 .mb-2 {
     margin-bottom: 16px;
+}
+
+.mb-4 {
+    margin-bottom: 32px;
 }
 
 .mb-6 {
@@ -236,4 +276,10 @@ p {
 #color-container > div:nth-child(7) {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
+}
+
+#text-section p {
+    font-size: 70px;
+    line-height: 93px;
+    font-weight: 700;
 }

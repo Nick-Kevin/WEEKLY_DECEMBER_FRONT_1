@@ -20,6 +20,10 @@ body {
     display: flex;
 }
 
+.grid-display {
+    display: grid;
+}
+
 .justify-content-between {
     justify-content: space-between;
 }
@@ -74,8 +78,22 @@ p {
     text-align: center;
 }
 
+#color-container {
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    background-color: yellow;
+}
+
+.mt-1 {
+    margin-top: 8px;
+}
+
 .mt-6 {
     margin-top: 48px;
+}
+
+.mb-1 {
+    margin-bottom: 8px;
 }
 
 .mb-2 {
@@ -160,4 +178,8 @@ p {
 
 .br-1 {
     border-radius: 5px;
+}
+
+.br-2 {
+    border-radius: 10px;
 }

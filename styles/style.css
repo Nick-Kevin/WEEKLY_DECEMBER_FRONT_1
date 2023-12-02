@@ -99,7 +99,9 @@ h6 {
 }
 
 p {
-    line-height: 1.5em;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
 }
 
 .bg-black {
@@ -251,6 +253,12 @@ p {
 
 .br-2 {
     border-radius: 10px;
+}
+
+.main-content span:first-child, main section:first-child h1 {
+    font-size: 50px;
+    line-height: 66px;
+    font-weight: 600;
 }
 
 .color {

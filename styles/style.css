@@ -291,3 +291,7 @@ p {
     line-height: 93px;
     font-weight: 700;
 }
+
+#list-section ul {
+    list-style-image: url(../assets/svg/check-circle-svgrepo-com.svg);
+}

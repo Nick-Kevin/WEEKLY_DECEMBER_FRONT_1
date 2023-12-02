@@ -16,7 +16,7 @@ body {
     display: none;
 }
 
-.flex-display, header ul {
+.flex-display {
     display: flex;
 }
 
@@ -44,7 +44,6 @@ header ul {
 
 header ul li {
     margin-left: 32px;
-    height: 100%;
 }
 
 .bg-black {

@@ -190,3 +190,21 @@ p {
     width: 10em;
     height: 10em;
 }
+
+#color-container > div:nth-child(4) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#color-container > div:nth-child(5) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#color-container > div:nth-child(6) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+#color-container > div:nth-child(7) {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}

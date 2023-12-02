@@ -34,7 +34,7 @@ body {
 
 header {
     position: fixed;            
-    background-color: lightblue;
+    background-color: var(--white-color);
 }
 
 header ul {

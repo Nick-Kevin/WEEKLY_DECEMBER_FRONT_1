@@ -21,3 +21,11 @@ header ul li {
     float: right;
     margin-left: 32px;
 }
+
+.mr-15 {
+    margin-right: 120px;
+}
+
+.ml-15 {
+    margin-left: 120px;
+}

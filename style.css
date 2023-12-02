@@ -12,7 +12,11 @@ body {
     font-family: roboto, Arial, Helvetica, sans-serif;
 }
 
-.flex-display {
+.display-none {
+    display: none;
+}
+
+.flex-display, header ul {
     display: flex;
 }
 

@@ -13,8 +13,13 @@ header {
     width: 100%;
 }
 
+header h1 {
+    display: inline;
+}
+
 ul {
     list-style-type: none;
+    display: inline;
 }
 
 header ul li {

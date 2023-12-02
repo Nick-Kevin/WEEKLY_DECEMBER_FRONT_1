@@ -31,6 +31,10 @@ body {
     display: grid;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .justify-content-between {
     justify-content: space-between;
 }
@@ -112,7 +116,7 @@ p {
 }
 
 .bg-black {
-    background-color: var(--black-color);
+    background-color: var(--black-color-1);
 }
 
 .bg-primary-1 {
@@ -310,7 +314,7 @@ p {
     border-radius: 10px;
 }
 
-.main-content span:first-child, main section:first-child h1 {
+.main-content > span:first-child, main section:first-child h1 {
     font-size: 38px;
     line-height: 66px;
     font-weight: 600;
@@ -356,5 +360,12 @@ p {
     max-width: 50%;
     font-style: italic;
     background: conic-gradient(from 180deg at 50% 50%, rgba(73, 222, 255, 0.72) 0deg, rgba(79, 255, 223, 0.71) 360deg);
+}
 
+#block-quotes-section div span {
+    font-size: 60px;
+    width: 68px;
+    height: 0px;
+    border-radius: 50%;
+    border-right: 20px solid var(--black-color-1);
 }

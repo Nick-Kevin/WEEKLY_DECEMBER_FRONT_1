@@ -7,13 +7,25 @@ body {
     font-family: roboto, Arial, Helvetica, sans-serif;
 }
 
-header {
-    position: fixed;
+.flex-display {
     display: flex;
+}
+
+.justify-content-between {
     justify-content: space-between;
+}
+
+.align-items-center {
     align-items: center;
-    background-color: lightblue;
+}
+
+.w-100 {
     width: 100%;
+}
+
+header {
+    position: fixed;            
+    background-color: lightblue;
 }
 
 header ul {

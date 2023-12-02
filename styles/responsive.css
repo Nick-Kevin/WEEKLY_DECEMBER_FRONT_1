@@ -1,7 +1,11 @@
-header ul {
+header > ul {
     display: none !important;
 }
 
 header > div {
     display: flex !important;
+}
+
+#menu ul {
+    width: 100%;
 }

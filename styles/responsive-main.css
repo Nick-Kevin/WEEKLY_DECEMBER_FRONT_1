@@ -1,4 +1,4 @@
-.main-content {
+.main-content, #button-section #large-button {
     flex-direction: column;
 }
 
@@ -93,5 +93,27 @@
     #color-container > div:nth-child(7) {
         grid-column: 2 / 3 !important;
         grid-row: 4 / 5 !important;
+    }
+
+    #button-section #small-button, #button-section #large-button {
+        column-gap: 16px !important;
+    }
+    
+    #button-section button {
+        font-size: 18px !important;
+    }
+    
+    #button-section #small-button button {
+        padding: 8px 25px !important;    
+    }
+    
+    #button-section #large-button button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #button-section #large-button button:nth-child(2) {
+        margin-top: 16px;
     }
 }

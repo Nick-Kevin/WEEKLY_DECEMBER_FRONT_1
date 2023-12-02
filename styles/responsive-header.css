@@ -26,7 +26,7 @@ header #menu ul li:nth-child(6) {
 }
 
 @media (orientation: portrait) {
-    header h1 {
+    header h2 {
         margin-left: 40px !important;
     }
     

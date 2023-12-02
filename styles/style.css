@@ -44,11 +44,11 @@ body {
 }
 
 .w-80 {
-    width: 80%;
+    width: 75%;
 }
 
 .w-20 {
-    width: 20%;
+    width: 25%;
 }
 
 header {
@@ -222,8 +222,16 @@ p {
     padding-top: 16px;
 }
 
+.pt-3 {
+    padding-top: 24px;
+}
+
 .pt-4 {
     padding-top: 32px;
+}
+
+.pt-6 {
+    padding-top: 48px;
 }
 
 .pt-8 {
@@ -238,8 +246,16 @@ p {
     padding-bottom: 16px;
 }
 
+.pb-3 {
+    padding-bottom: 24px;
+}
+
 .pb-4 {
     padding-bottom: 32px;
+}
+
+.pb-6 {
+    padding-bottom: 48px;
 }
 
 .pb-8 {
@@ -254,6 +270,14 @@ p {
     padding-right: 24px;
 }
 
+.pr-4 {
+    padding-right: 32px;
+}
+
+.pr-8 {
+    padding-right: 64px;
+}
+
 .pr-15 {
     padding-right: 120px;
 }
@@ -264,6 +288,14 @@ p {
 
 .pl-3 {
     padding-left: 24px;
+}
+
+.pl-4 {
+    padding-left: 32px;
+}
+
+.pl-8 {
+    padding-left: 64px;
 }
 
 .pl-15 {
@@ -317,4 +349,12 @@ p {
 
 #list-section ul {
     list-style-image: url(../assets/svg/check-circle-svgrepo-com.svg);
+}
+
+#block-quotes-section > div {
+    border-radius: 30px;
+    max-width: 50%;
+    font-style: italic;
+    background: conic-gradient(from 180deg at 50% 50%, rgba(73, 222, 255, 0.72) 0deg, rgba(79, 255, 223, 0.71) 360deg);
+
 }

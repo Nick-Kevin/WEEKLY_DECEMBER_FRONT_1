@@ -187,8 +187,8 @@ p {
 }
 
 .color {
-    width: 10em;
-    height: 10em;
+    width: calc(3.2vw + 115px);
+    height: calc(3.2vw + 115px);
 }
 
 #color-container > div:nth-child(4) {

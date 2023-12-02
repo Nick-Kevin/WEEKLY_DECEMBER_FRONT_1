@@ -17,3 +17,7 @@ header > ul {
 #menu ul {
     width: 100%;
 }
+
+header #menu li {
+    margin-left: 0 !important;
+}

@@ -1,5 +1,6 @@
 :root {
     --white-color: #FCFCFC;
+    --black-color: #050505;
 }
 
 * {
@@ -42,12 +43,28 @@ header ul li {
     height: 100%;
 }
 
+.bg-black {
+    background-color: var(--black-color);
+}
+
+.text-white {
+    color: var(--white-color);
+}
+
 .mr-15 {
     margin-right: 120px;
 }
 
 .ml-15 {
     margin-left: 120px;
+}
+
+.pb-1 {
+    padding-top: 8px;
+}
+
+.pt-2 {
+    padding-top: 16px;
 }
 
 .pt-4 {
@@ -58,6 +75,14 @@ header ul li {
     padding-top: 64px;
 }
 
+.pb-1 {
+    padding-bottom: 8px;
+}
+
+.pb-2 {
+    padding-bottom: 16px;
+}
+
 .pb-4 {
     padding-bottom: 32px;
 }
@@ -66,10 +91,30 @@ header ul li {
     padding-bottom: 64px;
 }
 
+.pr-2 {
+    padding-right: 16px;
+}
+
+.pr-3 {
+    padding-right: 24px;
+}
+
 .pr-15 {
     padding-right: 120px;
 }
 
+.pl-2 {
+    padding-left: 16px;
+}
+
+.pl-3 {
+    padding-left: 24px;
+}
+
 .pl-15 {
     padding-left: 120px;
+}
+
+.br-1 {
+    border-radius: 5px;
 }

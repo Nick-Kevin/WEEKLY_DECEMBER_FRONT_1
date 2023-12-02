@@ -2,6 +2,10 @@
     flex-direction: column;
 }
 
+.main-content > span, .main-content > div {
+    width: auto !important;
+}
+
 @media (orientation: portrait) {
     main {
         margin-left: 40px !important;
@@ -16,6 +20,12 @@
         font-size: 50px !important;
         line-height: 70px !important;
         font-weight: 700 !important;
+    }
+
+    #block-quotes-section > div {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+        max-width: 100% !important;
     }
 
     h1 {

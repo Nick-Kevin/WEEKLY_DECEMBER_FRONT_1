@@ -18,6 +18,11 @@ header > ul {
     width: 100%;
 }
 
-header #menu li {
+header #menu ul li {
     margin-left: 0 !important;
+    margin-bottom: 32px;
+}
+
+header #menu ul li:nth-child(6) {
+    margin: 0 32px !important;
 }

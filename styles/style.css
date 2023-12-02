@@ -411,8 +411,11 @@ footer > div:nth-child(2) {
 }
 
 footer h5 {
-    border-top: 1px solid rgb(74, 74, 74);
     border-bottom: 1px solid rgb(74, 74, 74);
+}
+
+footer h5, footer > p {
+    border-top: 1px solid rgb(74, 74, 74);
 }
 
 footer ul {
@@ -423,4 +426,9 @@ footer ul {
 footer ul li {
     cursor: pointer;
     margin-bottom: 16px;
+}
+
+footer > div:nth-child(2) > div:nth-child(3) div div {
+    padding: 1px;
+    background: linear-gradient(282.45deg, #6C6C6C 7.11%, #303030 70.26%);
 }

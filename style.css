@@ -9,22 +9,22 @@ body {
 
 header {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: lightblue;
     width: 100%;
 }
 
-header h1 {
-    display: inline;
-}
-
-ul {
+header ul {
+    display: flex;
     list-style-type: none;
-    display: inline;
+    height: 100%;
 }
 
 header ul li {
-    float: right;
     margin-left: 32px;
+    height: 100%;
 }
 
 .mr-15 {

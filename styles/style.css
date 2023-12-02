@@ -1,5 +1,5 @@
 :root {
-    --white-color: #FCFCFC;
+    --white-color: #FDFDFD;
     --black-color: #050505;
 }
 
@@ -70,6 +70,34 @@ p {
     background-color: var(--black-color);
 }
 
+.bg-primary-1 {
+    background-color: #49DEFF;
+}
+
+.bg-primary-2 {
+    background-color: #4FFFDF;
+}
+
+.bg-primary-3 {
+    background-color: #303030;
+}
+
+.bg-secondary-1 {
+    background-color: #4E4E4E;
+}
+
+.bg-secondary-2 {
+    background-color: #DEDEDE;
+}
+
+.bg-secondary-3 {
+    background-color: #F4F4F4;
+}
+
+.bg-secondary-4 {
+    background-color: #F9F9F9;
+}
+
 .text-white {
     color: var(--white-color);
 }
@@ -83,7 +111,6 @@ p {
     grid-template-rows: auto auto;
     grid-column-gap: 32px;
     grid-row-gap: 32px;
-    background-color: yellow;
 }
 
 .mt-1 {

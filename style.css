@@ -29,7 +29,6 @@ header {
 }
 
 header ul {
-    display: flex;
     list-style-type: none;
     height: 100%;
 }
@@ -45,4 +44,28 @@ header ul li {
 
 .ml-15 {
     margin-left: 120px;
+}
+
+.pt-4 {
+    padding-top: 32px;
+}
+
+.pt-8 {
+    padding-top: 64px;
+}
+
+.pb-4 {
+    padding-bottom: 32px;
+}
+
+.pb-8 {
+    padding-bottom: 64px;
+}
+
+.pr-15 {
+    padding-right: 120px;
+}
+
+.pl-15 {
+    padding-left: 120px;
 }

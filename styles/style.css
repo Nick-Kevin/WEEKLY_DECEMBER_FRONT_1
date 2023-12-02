@@ -46,12 +46,36 @@ header ul li {
     margin-left: 32px;
 }
 
+main {
+    padding-top: 99px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
 .bg-black {
     background-color: var(--black-color);
 }
 
 .text-white {
     color: var(--white-color);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.mt-6 {
+    margin-top: 48px;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+.mb-6 {
+    margin-bottom: 48px;
 }
 
 .mr-15 {

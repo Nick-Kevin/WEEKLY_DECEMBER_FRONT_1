@@ -1,9 +1,17 @@
-header > ul {
-    display: none !important;
-}
-
 header > div {
     display: flex !important;
+}
+
+header h1 {
+    margin-left: 40px !important;
+}
+
+header #burger-menu {
+    margin-right: 40px;
+}
+
+header > ul {
+    display: none !important;
 }
 
 #menu ul {

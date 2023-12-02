@@ -314,6 +314,10 @@ p {
     border-radius: 10px;
 }
 
+.no-border {
+    border: none;
+}
+
 .main-content > span:first-child, main section:first-child h1 {
     font-size: 38px;
     line-height: 66px;
@@ -368,4 +372,28 @@ p {
     height: 0px;
     border-radius: 50%;
     border-right: 20px solid var(--black-color-1);
+}
+
+#button-section #small-button, #button-section #large-button {
+    column-gap: 20px;
+}
+
+#button-section button {
+    font-size: 20px;
+}
+
+#button-section #small-button button {
+    padding: 14px 59px;    
+}
+
+#button-section #small-button button:nth-child(2) {
+    background: rgba(75, 227, 235, 1);
+}
+
+#button-section #large-button button {
+    padding: 14px 141px;
+}
+
+#button-section #large-button button:nth-child(2) {
+    background: rgba(234, 234, 234, 1);
 }

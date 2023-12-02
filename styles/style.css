@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost');
+@import url('https://fonts.googleapis.com/css2?family=Open Sans');
+
 :root {
     --white-color: #FDFDFD;
-    --black-color: #050505;
+    --black-color-1: rgba(48, 48, 48, 1);
+    --black-color-2: rgba(78, 78, 78, 1);
+    --jost: Jost;
+    --open-sans: "Open Sans";
 }
 
 * {
@@ -9,7 +15,8 @@
 
 body {
     background-color: var(--white-color);
-    font-family: "Open sans", roboto, Arial, Helvetica, sans-serif;
+    font-family: var(--open-sans), poppins, Arial, roboto, Helvetica, sans-serif;
+    color: var(--black-color-1);
 }
 
 .display-none {
@@ -136,12 +143,28 @@ p {
     background-color: #F9F9F9;
 }
 
+.jost-font {
+    font-family: var(--jost);
+}
+
 .text-white {
     color: var(--white-color);
 }
 
+.text-black-1 {
+    color: var(--black-color-1);
+}
+
+.text-black-2 {
+    color: var(--black-color-2);
+}
+
 .center-text {
     text-align: center;
+}
+
+.fw-400 {
+    font-weight: 400;
 }
 
 #color-container {
@@ -256,7 +279,7 @@ p {
 }
 
 .main-content span:first-child, main section:first-child h1 {
-    font-size: 50px;
+    font-size: 38px;
     line-height: 66px;
     font-weight: 600;
 }

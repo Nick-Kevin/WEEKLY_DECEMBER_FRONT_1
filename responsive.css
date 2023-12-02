@@ -1,0 +1,7 @@
+header ul {
+    display: none;
+}
+
+header > div {
+    display: flex;
+}

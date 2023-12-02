@@ -182,6 +182,10 @@ p {
     margin-top: 8px;
 }
 
+.mt-4 {
+    margin-top: 32px;
+}
+
 .mt-6 {
     margin-top: 48px;
 }
@@ -240,6 +244,10 @@ p {
 
 .pt-8 {
     padding-top: 64px;
+}
+
+.pt-15 {
+    padding-top: 120px;
 }
 
 .pb-1 {
@@ -396,4 +404,23 @@ p {
 
 #button-section #large-button button:nth-child(2) {
     background: rgba(234, 234, 234, 1);
+}
+
+footer > div:nth-child(2) {
+    grid-template-columns: 20% 20% 20% 40%;
+}
+
+footer h5 {
+    border-top: 1px solid rgb(74, 74, 74);
+    border-bottom: 1px solid rgb(74, 74, 74);
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    cursor: pointer;
+    margin-bottom: 16px;
 }

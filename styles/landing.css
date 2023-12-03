@@ -22,6 +22,36 @@
     top: -65px;
 }
 
+#heading .p-relative #g-2457 {
+    top: 25px;
+    left: -75px;
+}
+
+#heading .p-relative #g-2456 {
+    top: 280px;
+    left: 520px;
+}
+
+#heading .p-relative #e-276 {
+    top: 510px;
+    left: -75px;
+}
+
+#heading .p-relative #e-277 {
+    top: 40px;
+    right: -85px;
+}
+
+#heading .p-relative #p-17 {
+    top: 35px;
+    left: 400px;
+}
+
+#heading .p-relative #p-18 {
+    top: 540px;
+    left: 489px;
+}
+
 #heading .p-relative #bg-heading {
     width: 150%;
     right: var(--unset-margin-right);

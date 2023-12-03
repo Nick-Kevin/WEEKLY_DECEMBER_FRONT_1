@@ -6,6 +6,7 @@
 
 #heading {
     grid-template-columns: 55% 45%;
+    border-bottom: var(--line);
 }
 
 #heading button {
@@ -92,6 +93,24 @@
 
 #heading #five-stars div {
     border-left: var(--line) ;
+}
+
+#features {
+    grid-template-rows: auto auto;
+}
+
+#features > div:nth-child(2) {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-column-gap: 24px;
+}
+
+#features > div:nth-child(2) div {
+    padding: 36px 43px;
+}
+
+#features > div:nth-child(2) img {
+    width: 64px;
+    height: 64px;
 }
 
 .text-capitalize {

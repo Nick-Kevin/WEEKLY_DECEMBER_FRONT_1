@@ -84,3 +84,16 @@ header {
 #why-choose-us > div:nth-child(3) img {
     margin-top: 40px;
 }
+
+#client-logos > div:nth-child(2),
+#client-logos > div:nth-child(4) {
+    grid-template-columns: 50% 50% !important;
+}
+
+#client-logos > div:nth-child(2) div:nth-child(3),
+#client-logos > div:nth-child(2) div:nth-child(4),
+#client-logos > div:nth-child(4) div:nth-child(3),
+#client-logos > div:nth-child(4) div:nth-child(4) {
+    border-top: var(--line);
+    border-left: none !important;
+}

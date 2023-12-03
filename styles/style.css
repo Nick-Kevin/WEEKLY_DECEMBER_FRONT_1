@@ -386,6 +386,10 @@ button {
     border-radius: 10px;
 }
 
+.br-3 {
+    border-radius: 15px;
+}
+
 .no-border {
     border: none;
 }

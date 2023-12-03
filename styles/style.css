@@ -73,6 +73,12 @@ main {
     padding-top: 99px;
 }
 
+a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 32px;
+}
+
 h1 {
     font-size: 60px;
     line-height: 80px;
@@ -110,9 +116,14 @@ h6 {
 }
 
 p {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 25px;
+    line-height: 40px;
     font-weight: 400;
+}
+
+button {
+    border: none;
+    font-size: 20px;
 }
 
 .bg-black {
@@ -147,7 +158,7 @@ p {
     background-color: #F9F9F9;
 }
 
-.jost-font {
+.jost-font, a, button {
     font-family: var(--jost);
 }
 
@@ -208,6 +219,14 @@ p {
 
 .mb-11 {
     margin-bottom: 88px;
+}
+
+.mr-3 {
+    margin-right: 24px;
+}
+
+.mr-4 {
+    margin-right: 32px;
 }
 
 .mr-15 {

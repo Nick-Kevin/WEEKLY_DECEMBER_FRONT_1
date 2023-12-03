@@ -1,6 +1,7 @@
 :root {
     --unset-margin-right: -120px;
-    --unset-header-height: -103px 
+    --unset-header-height: -103px;
+    --line: 1px solid rgba(193, 193, 193, 1);
 }
 
 #heading {
@@ -47,6 +48,14 @@
     width: 85%;
     left: 180px;
     top: 430px;
+}
+
+#heading #five-stars {
+    border-top: var(--line);
+}
+
+#heading #five-stars div {
+    border-left: var(--line) ;
 }
 
 .text-capitalize {

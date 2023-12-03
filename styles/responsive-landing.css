@@ -61,7 +61,7 @@ header {
     width: 300px !important;
 }
 
-#cores-features {
+#cores-features, #why-choose-us {
     grid-template-columns: 100% !important;
     grid-template-rows: auto auto;
 }
@@ -74,4 +74,13 @@ header {
     grid-row: 1 / 2;
     padding: 0 !important;
     margin-bottom: 32px;
+}
+
+#why-choose-us .flex-display {
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+#why-choose-us > div:nth-child(3) img {
+    margin-top: 40px;
 }

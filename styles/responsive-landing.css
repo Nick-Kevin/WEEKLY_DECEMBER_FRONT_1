@@ -86,14 +86,31 @@ header {
 }
 
 #client-logos > div:nth-child(2),
+#client-logos > div:nth-child(3),
 #client-logos > div:nth-child(4) {
     grid-template-columns: 50% 50% !important;
 }
 
+
 #client-logos > div:nth-child(2) div:nth-child(3),
 #client-logos > div:nth-child(2) div:nth-child(4),
+#client-logos > div:nth-child(3) div:nth-child(3),
 #client-logos > div:nth-child(4) div:nth-child(3),
 #client-logos > div:nth-child(4) div:nth-child(4) {
     border-top: var(--line);
     border-left: none !important;
+}
+
+#client-logos > div:nth-child(3) div:nth-child(2),
+#client-logos > div:nth-child(3) div:nth-child(3),
+#client-logos > div:nth-child(3) div:nth-child(4) {
+    border-bottom: var(--line);
+}
+
+#client-logos > div:nth-child(3) div:nth-child(4) {
+    border-right: none;
+}
+
+#client-logos > div:nth-child(3) div:nth-child(5) {
+    border-right: var(--line);
 }

@@ -16,6 +16,12 @@
     z-index: -1;    
 }
 
+#heading .p-relative #pattern {
+    width: 180%;
+    left: -200px;
+    top: -65px;
+}
+
 #heading .p-relative #bg-heading {
     width: 150%;
     right: var(--unset-margin-right);

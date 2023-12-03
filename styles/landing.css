@@ -1,9 +1,52 @@
+:root {
+    --unset-margin-right: -120px;
+    --unset-header-height: -103px 
+}
+
 #heading {
     grid-template-columns: 55% 45%;
 }
 
 #heading button {
     padding: 14px 39px;
+}
+
+#heading .p-relative img {
+    z-index: -1;    
+}
+
+#heading .p-relative #bg-heading {
+    width: 150%;
+    right: var(--unset-margin-right);
+    top: var(--unset-header-height);
+}
+
+#heading .p-relative #img-1 {
+    width: 80%;
+    left: -70px;
+}
+
+#heading .p-relative #img-2 {
+    width: 75%;
+    left: 30px;
+    top: 190px;
+}
+
+#heading .p-relative #img-3 {
+    width: 65%;
+    left: 305px;
+    top: 160px;
+}
+
+#heading .p-relative #img-4 {
+    width: 65%;
+    left: 280px;
+}
+
+#heading .p-relative #img-5 {
+    width: 85%;
+    left: 180px;
+    top: 430px;
 }
 
 .text-capitalize {

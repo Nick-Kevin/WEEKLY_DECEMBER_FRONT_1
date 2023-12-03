@@ -1,0 +1,48 @@
+header {
+    position: fixed;
+    background-color: var(--white-color);
+    z-index: 99999;
+}
+
+#heading {
+    grid-template-columns: 100% !important;
+}
+
+#heading > div:nth-child(2) {
+    display: none;
+}
+
+/*#heading h1 {
+    margin-top: 40px;
+}
+
+#heading h1, #heading p {
+    margin-bottom: 24px;
+}*/
+
+#heading #link {
+    justify-content: space-between !important;
+}
+
+#heading #link button {
+    margin: 0;
+    padding: 8px 32px;
+}
+
+#heading #five-stars {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 !important;
+}
+
+#heading #five-stars > img {
+    height: 150px;
+}
+
+#heading #five-stars img:nth-child(1), #heading #five-stars img:nth-child(4) {
+    transform: rotate(90deg);
+}
+
+#heading #five-stars div {
+    margin-top: 32px;
+}

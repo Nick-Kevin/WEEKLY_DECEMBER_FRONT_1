@@ -28,6 +28,10 @@ body {
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .grid-display {
     display: grid;
 }
@@ -38,6 +42,10 @@ body {
 
 .justify-content-between {
     justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: end;
 }
 
 .align-items-center {

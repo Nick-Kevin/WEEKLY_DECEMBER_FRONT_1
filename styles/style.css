@@ -197,8 +197,16 @@ button {
     margin-top: 32px;
 }
 
+.mt-5 {
+    margin-top: 40px;
+}
+
 .mt-6 {
     margin-top: 48px;
+}
+
+.mt-7 {
+    margin-top: 56px;
 }
 
 .mb-1 {
@@ -213,8 +221,16 @@ button {
     margin-bottom: 32px;
 }
 
+.mb-5 {
+    margin-bottom: 40px;
+}
+
 .mb-6 {
     margin-bottom: 48px;
+}
+
+.mb-7 {
+    margin-bottom: 56ox;
 }
 
 .mb-11 {
@@ -227,6 +243,10 @@ button {
 
 .mr-4 {
     margin-right: 32px;
+}
+
+.mr-5 {
+    margin-right: 40px;
 }
 
 .mr-15 {
@@ -261,6 +281,10 @@ button {
     padding-top: 48px;
 }
 
+.pt-7 {
+    padding-top: 56px;
+}
+
 .pt-8 {
     padding-top: 64px;
 }
@@ -291,6 +315,10 @@ button {
 
 .pb-6 {
     padding-bottom: 48px;
+}
+
+.pb-7 {
+    padding-bottom: 56px;
 }
 
 .pb-8 {
@@ -327,6 +355,10 @@ button {
 
 .pl-4 {
     padding-left: 32px;
+}
+
+.pl-5 {
+    padding-left: 40px;
 }
 
 .pl-8 {

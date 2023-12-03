@@ -270,6 +270,14 @@ button {
     margin-right: 120px;
 }
 
+.ml-1 {
+    margin-left: 8px;
+}
+
+.ml-2 {
+    margin-left: 16px;
+}
+
 .ml-11 {
     margin-left: 88px;
 }
@@ -400,6 +408,16 @@ button {
 
 .no-border {
     border: none;
+}
+
+header #logo {
+    width: 40px;
+    height: 40px;
+}
+
+header h2 {
+    line-height: 0;
+    font-weight: 700;
 }
 
 .main-content > span:first-child, main section:first-child h1 {

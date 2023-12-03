@@ -8,7 +8,7 @@ header {
     grid-template-columns: 100% !important;
 }
 
-#heading > div:nth-child(2) {
+#heading > div:nth-child(2), #heading > div:nth-child(1) > img {
     display: none;
 }
 

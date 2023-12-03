@@ -81,7 +81,7 @@ header {
 }
 
 #why-choose-us > img {
-    width: 98vw !important;
+    display: none !important;
 }
 
 #why-choose-us .flex-display {

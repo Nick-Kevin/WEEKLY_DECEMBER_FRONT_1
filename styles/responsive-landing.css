@@ -10,6 +10,7 @@ header {
 
 #heading {
     grid-template-columns: 100% !important;
+    padding-top: 96px !important;
 }
 
 #heading > div:nth-child(2), #heading > div:nth-child(1) > img {

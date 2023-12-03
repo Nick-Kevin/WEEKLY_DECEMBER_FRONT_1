@@ -1,3 +1,11 @@
 #heading {
     grid-template-columns: 55% 45%;
 }
+
+#heading button {
+    padding: 14px 39px;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}

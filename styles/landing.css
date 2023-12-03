@@ -2,6 +2,8 @@
     --unset-margin-right: -120px;
     --unset-header-height: -103px;
     --line: 1px solid rgba(193, 193, 193, 1);
+    --primary: rgba(244, 244, 244, 0.93);
+
 }
 
 #heading {
@@ -97,20 +99,34 @@
 
 #features {
     grid-template-rows: auto auto;
+    grid-row-gap: 56px;
 }
 
 #features > div:nth-child(2) {
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-column-gap: 24px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
 }
 
-#features > div:nth-child(2) div {
+#features > div:nth-child(2) div:nth-child(3) {
     padding: 36px 43px;
 }
 
-#features > div:nth-child(2) img {
-    width: 64px;
-    height: 64px;
+#features > div:nth-child(2) div:nth-child(1) {
+    padding: 50px 47px;
+}
+
+#features > div:nth-child(2) div:nth-child(2) {
+    padding: 47px 44px;
+}
+
+#features > div:nth-child(2) div:nth-child(1),
+#features > div:nth-child(2) div:nth-child(3) {
+    background-color: var(--primary);
+    box-shadow: -2.572617292404175px 2.572617292404175px 0px 0px rgba(255, 255, 255, 1) inset;
+}
+
+#features > div:nth-child(2) div:nth-child(2) {
+    box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
 }
 
 .text-capitalize {

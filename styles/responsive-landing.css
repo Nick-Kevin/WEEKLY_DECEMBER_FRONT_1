@@ -1,3 +1,7 @@
+.center-text {
+    text-align: start !important;
+}
+
 header {
     position: fixed;
     background-color: var(--white-color);
@@ -83,6 +87,10 @@ header {
 
 #why-choose-us > div:nth-child(3) img {
     margin-top: 40px;
+}
+
+#client-logos p {
+    width: 100% !important;
 }
 
 #client-logos > div:nth-child(2),

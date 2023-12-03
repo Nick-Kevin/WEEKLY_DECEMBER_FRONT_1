@@ -130,6 +130,55 @@
     box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
 }
 
+#cores-features {
+    grid-template-columns: 50% 50%;
+}
+
+#cores-features > img {
+    width: calc(450px + 7vw);
+    left: -120px;
+    z-index: -1;
+}
+
+#cores-features > div:nth-child(2) {
+    padding: 24px 16px;
+}
+
+#cores-features > div:nth-child(3) {
+    padding: 24px 0px 24px 40px;
+}
+
+#cores-features > div:nth-child(2) {
+    background-color: var(--primary);
+}
+
+#cores-features div div img:nth-child(1) {
+    width: 60%;
+}
+
+#cores-features div div img:nth-child(2) {
+    width: 40%;
+}
+
+#cores-features .background {
+    padding: 2px;
+    background: linear-gradient(280.22deg, #E0E0E0 5.64%, rgba(224, 224, 224, 0) 70.96%);
+}
+
+#cores-features .background div {
+    background-color: var(--white-color);
+    padding: 16px;
+}
+
+#cores-features ul {
+    list-style-image: url("../assets/svg/Cores-features/Pattern\(1\).svg");
+}
+
+#cores-features li {
+    font-size: 30px;
+    line-height: 0px;
+}
+
 .text-capitalize {
     text-transform: capitalize;
 }

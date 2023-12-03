@@ -193,6 +193,38 @@
     width: 100%;
 }
 
+#client-logos > div:first-child p {
+    width: 60%;
+}
+
+#client-logos > div:nth-child(2),
+#client-logos > div:nth-child(4) {
+    grid-template-columns: 30% 20% 20% 30%;    
+}
+
+#client-logos > div:nth-child(3) {
+    grid-template-columns: 20% 20% 20% 20% 20%;    
+}
+
+#client-logos > div:nth-child(2) div img,
+#client-logos > div:nth-child(3) div img,
+#client-logos > div:nth-child(4) div img {
+    width: 50%;
+    margin: 24px;
+}
+
 .text-capitalize {
     text-transform: capitalize;
+}
+
+.br-right {
+    border-right: var(--line);
+}
+
+.br-left {
+    border-left: var(--line);
+}
+
+.br-bottom {
+    border-bottom: var(--line);
 }

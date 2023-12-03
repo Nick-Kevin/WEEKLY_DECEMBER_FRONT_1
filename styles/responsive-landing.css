@@ -46,3 +46,13 @@ header {
 #heading #five-stars div {
     margin-top: 32px;
 }
+
+#features {
+    margin-top: 40px !important;
+}
+
+#features > div:nth-child(2) {
+    grid-template-columns: auto !important;
+    grid-template-rows: auto auto auto !important;
+    grid-row-gap: 40px;
+}

@@ -1,3 +1,8 @@
+body {
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
 .main-content, #button-section #large-button {
     flex-direction: column;
 }

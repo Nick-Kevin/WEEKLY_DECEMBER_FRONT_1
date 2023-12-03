@@ -496,3 +496,134 @@ footer > div:nth-child(2) > div:nth-child(3) div div {
     padding: 1px;
     background: linear-gradient(282.45deg, #6C6C6C 7.11%, #303030 70.26%);
 }
+
+.container-pack{
+    position: relative;
+    margin-bottom: 100px;
+    padding-left: 141px;
+    padding-right: 125px;
+    min-height: 1400px;
+    
+}
+
+.wrapper-pack{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    
+}
+
+.pack-title{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: center;
+    margin-right: -10px;
+    grid-column-start: 3;
+    grid-column-end: 9;
+    margin-bottom: 36px;
+}
+
+.pack-content{
+    position: relative;
+    grid-column: 1/-1;
+    padding-inline: 100px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.bg-blue{
+    grid-column: 1/-1;
+    border-radius: 30px;
+    height: 533px;
+    background-color: rgba(73, 222, 255,72%);
+}
+
+.pack{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    position: absolute;
+    top: 118px;
+    margin-inline: -32px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.starter-pack{
+    grid-column-start:1 ;
+    margin-right: 32px;
+}
+
+.professional-pack {
+    grid-column-start: 2;
+    margin-left: 32px;
+}
+
+.card-pack{
+    border: 1px solid #EBEBEB;
+    box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
+    background-color: white;
+    border-radius: 30px;
+    padding: 63px 62px;
+}
+
+.card-debit{
+    margin-bottom: 23px;
+}
+
+.card-description{
+    margin-bottom: 34px;
+}
+
+.card-divider{
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 21px;
+}
+
+.card-details{
+    margin-bottom: 18px;
+}
+
+.card-details-list{
+    padding: 0;
+    list-style: none;
+}
+
+.card-details-list > li{
+    font-size: 20px;
+    color: #4E4E4E;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.card-details-list >li >img{
+    margin-right: 30px;
+}
+
+.card-btn{
+    background-color: #EAEAEA;
+    color: #303030;
+    font-size: 20px;
+    font-family: var(--jost);
+    font-weight: 600;
+    text-align: center;
+    padding-block: 26px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.card-btn-professional{
+    background-color:#303030;
+    color: white;
+    font-size: 20px;
+    font-family: var(--jost);
+    font-weight: 600;
+    text-align: center;
+    padding-block: 26px;
+    border-radius: 15px;
+    width: 100%;
+}

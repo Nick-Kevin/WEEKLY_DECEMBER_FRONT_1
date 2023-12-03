@@ -80,6 +80,10 @@ header {
     margin-bottom: 32px;
 }
 
+#why-choose-us > img {
+    width: 98vw
+}
+
 #why-choose-us .flex-display {
     flex-direction: column;
     row-gap: 24px;

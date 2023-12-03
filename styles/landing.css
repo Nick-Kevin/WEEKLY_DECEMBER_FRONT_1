@@ -11,7 +11,7 @@
     border-bottom: var(--line);
 }
 
-#heading button {
+#heading button, #why-choose-us button {
     padding: 14px 39px;
 }
 
@@ -177,6 +177,20 @@
 #cores-features li {
     font-size: 30px;
     line-height: 0px;
+}
+
+#why-choose-us {
+    grid-template-columns: 50% 50%;
+}
+
+#why-choose-us > img {
+    width: calc(450px + 7vw);
+    right: -120px;
+    z-index: -1;
+}
+
+#why-choose-us > div:nth-child(3) img {
+    width: 100%;
 }
 
 .text-capitalize {

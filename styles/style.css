@@ -28,6 +28,10 @@ body {
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .grid-display {
     display: grid;
 }
@@ -38,6 +42,10 @@ body {
 
 .justify-content-between {
     justify-content: space-between;
+}
+
+.justify-content-end {
+    justify-content: end;
 }
 
 .align-items-center {
@@ -239,7 +247,7 @@ button {
 }
 
 .mb-7 {
-    margin-bottom: 56ox;
+    margin-bottom: 56px;
 }
 
 .mb-11 {
@@ -260,6 +268,14 @@ button {
 
 .mr-15 {
     margin-right: 120px;
+}
+
+.ml-1 {
+    margin-left: 8px;
+}
+
+.ml-2 {
+    margin-left: 16px;
 }
 
 .ml-11 {
@@ -386,8 +402,22 @@ button {
     border-radius: 10px;
 }
 
+.br-3 {
+    border-radius: 15px;
+}
+
 .no-border {
     border: none;
+}
+
+header #logo {
+    width: 40px;
+    height: 40px;
+}
+
+header h2 {
+    line-height: 0;
+    font-weight: 700;
 }
 
 .main-content > span:first-child, main section:first-child h1 {

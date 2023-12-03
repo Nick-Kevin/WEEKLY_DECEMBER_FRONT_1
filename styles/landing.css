@@ -1,6 +1,6 @@
 :root {
     --unset-margin-right: -120px;
-    --unset-header-height: -103px;
+    --unset-header-height: -105px;
     --line: 1px solid rgba(193, 193, 193, 1);
     --primary: rgba(244, 244, 244, 0.93);
 
@@ -11,7 +11,7 @@
     border-bottom: var(--line);
 }
 
-#heading button {
+#heading button, #why-choose-us button {
     padding: 14px 39px;
 }
 
@@ -130,6 +130,101 @@
     box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
 }
 
+#cores-features {
+    grid-template-columns: 50% 50%;
+}
+
+#cores-features > img {
+    width: calc(450px + 7vw);
+    left: -120px;
+    z-index: -1;
+}
+
+#cores-features > div:nth-child(2) {
+    padding: 24px 16px;
+}
+
+#cores-features > div:nth-child(3) {
+    padding: 24px 0px 24px 40px;
+}
+
+#cores-features > div:nth-child(2) {
+    background-color: var(--primary);
+}
+
+#cores-features div div img:nth-child(1) {
+    width: 60%;
+}
+
+#cores-features div div img:nth-child(2) {
+    width: 40%;
+}
+
+#cores-features .background {
+    padding: 2px;
+    background: linear-gradient(280.22deg, #E0E0E0 5.64%, rgba(224, 224, 224, 0) 70.96%);
+}
+
+#cores-features .background div {
+    background-color: var(--white-color);
+    padding: 16px;
+}
+
+#cores-features ul {
+    list-style-image: url("../assets/svg/Cores-features/Pattern\(1\).svg");
+}
+
+#cores-features li {
+    font-size: 30px;
+    line-height: 0px;
+}
+
+#why-choose-us {
+    grid-template-columns: 50% 50%;
+}
+
+#why-choose-us > img {
+    width: calc(450px + 7vw);
+    right: -120px;
+    z-index: -1;
+}
+
+#why-choose-us > div:nth-child(3) img {
+    width: 100%;
+}
+
+#client-logos > div:first-child p {
+    width: 60%;
+}
+
+#client-logos > div:nth-child(2),
+#client-logos > div:nth-child(4) {
+    grid-template-columns: 30% 20% 20% 30%;    
+}
+
+#client-logos > div:nth-child(3) {
+    grid-template-columns: 20% 20% 20% 20% 20%;    
+}
+
+#client-logos > div:nth-child(2) div img,
+#client-logos > div:nth-child(3) div img,
+#client-logos > div:nth-child(4) div img {
+    width: 50%;
+    margin: 24px;
+}
+
 .text-capitalize {
     text-transform: capitalize;
+}
+
+.br-right {
+    border-right: var(--line);
+}
+
+.br-left {
+    border-left: var(--line);
+}
+
+.br-bottom {
+    border-bottom: var(--line);
 }

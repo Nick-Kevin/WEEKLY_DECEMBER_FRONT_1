@@ -17,6 +17,7 @@ body {
     background-color: var(--white-color);
     font-family: var(--open-sans), poppins, Arial, roboto, Helvetica, sans-serif;
     color: var(--black-color-1);
+    overflow-x: hidden;
 }
 
 .display-none {
@@ -43,6 +44,14 @@ body {
     align-items: center;
 }
 
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
 .w-100 {
     width: 100%;
 }
@@ -55,11 +64,6 @@ body {
     width: 25%;
 }
 
-header {
-    position: fixed;            
-    background-color: var(--white-color);
-}
-
 header ul {
     list-style-type: none;
     height: 100%;
@@ -67,10 +71,6 @@ header ul {
 
 header ul li {
     margin-left: 32px;
-}
-
-main {
-    padding-top: 99px;
 }
 
 a {
@@ -263,6 +263,10 @@ button {
 
 .pt-8 {
     padding-top: 64px;
+}
+
+.pt-12 {
+    padding-top: 96px;
 }
 
 .pt-15 {

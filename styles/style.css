@@ -72,21 +72,6 @@ body {
     width: 25%;
 }
 
-header ul {
-    list-style-type: none;
-    height: 100%;
-}
-
-header ul li {
-    margin-left: 32px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 32px;
-}
-
 h1 {
     font-size: 60px;
     line-height: 80px;
@@ -102,12 +87,6 @@ h2 {
 h3 {
     font-size: 35px;
     line-height: 60px;
-    font-weight: 500;
-}
-
-h4 {
-    font-size: 30px;
-    line-height: 39px;
     font-weight: 500;
 }
 
@@ -128,15 +107,6 @@ p {
     line-height: 32px;
     font-weight: 400;
     color: var(--black-color-2);
-}
-
-button {
-    border: none;
-    font-size: 20px;
-}
-
-.bg-black {
-    background-color: var(--black-color-1);
 }
 
 .bg-primary-1 {
@@ -408,16 +378,6 @@ button {
 
 .no-border {
     border: none;
-}
-
-header #logo {
-    width: 40px;
-    height: 40px;
-}
-
-header h2 {
-    line-height: 0;
-    font-weight: 700;
 }
 
 .main-content > span:first-child, main section:first-child h1 {

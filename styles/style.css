@@ -5,14 +5,14 @@
     --white-color: #FDFDFD;
     --black-color-1: rgba(48, 48, 48, 1);
     --black-color-2: rgba(78, 78, 78, 1);
-    --primary-1: #49DEFF;
+    --primary-1: hsl(191, 100%, 64%);
     --primary-2: #4FFFDF;
     --primary-3: #303030;
     --secondary-1: #4E4E4E;
     --secondary-2: #DEDEDE;
     --secondary-3: #F4F4F4;
     --secondary-4: #F9F9F9;
-    --line-color: #C1CC1C1;
+    --line-color: #C1C1C1;
     --jost: Jost, Helvetica;
     --open-sans: "Open Sans";
 }

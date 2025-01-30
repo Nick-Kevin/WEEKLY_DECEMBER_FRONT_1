@@ -536,9 +536,6 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
-  .top-24 {
-    top: calc(var(--spacing) * 24);
-  }
   .top-28 {
     top: calc(var(--spacing) * 28);
   }
@@ -548,23 +545,92 @@
   .top-48 {
     top: calc(var(--spacing) * 48);
   }
+  .top-52 {
+    top: calc(var(--spacing) * 52);
+  }
+  .top-56 {
+    top: calc(var(--spacing) * 56);
+  }
+  .top-72 {
+    top: calc(var(--spacing) * 72);
+  }
+  .top-80 {
+    top: calc(var(--spacing) * 80);
+  }
+  .top-96 {
+    top: calc(var(--spacing) * 96);
+  }
+  .top-\[13\.2rem\] {
+    top: 13.2rem;
+  }
+  .top-\[13\.5rem\] {
+    top: 13.5rem;
+  }
+  .top-\[18\.5rem\] {
+    top: 18.5rem;
+  }
+  .top-\[18\.7rem\] {
+    top: 18.7rem;
+  }
+  .top-\[19rem\] {
+    top: 19rem;
+  }
+  .top-\[29rem\] {
+    top: 29rem;
+  }
+  .top-\[30rem\] {
+    top: 30rem;
+  }
   .right-0 {
     right: calc(var(--spacing) * 0);
+  }
+  .right-20 {
+    right: calc(var(--spacing) * 20);
+  }
+  .right-32 {
+    right: calc(var(--spacing) * 32);
+  }
+  .right-36 {
+    right: calc(var(--spacing) * 36);
+  }
+  .right-40 {
+    right: calc(var(--spacing) * 40);
+  }
+  .right-48 {
+    right: calc(var(--spacing) * 48);
   }
   .right-56 {
     right: calc(var(--spacing) * 56);
   }
-  .right-60 {
-    right: calc(var(--spacing) * 60);
-  }
-  .right-72 {
-    right: calc(var(--spacing) * 72);
+  .right-80 {
+    right: calc(var(--spacing) * 80);
   }
   .right-96 {
     right: calc(var(--spacing) * 96);
   }
+  .right-\[8\.5rem\] {
+    right: 8.5rem;
+  }
+  .right-\[21rem\] {
+    right: 21rem;
+  }
+  .right-\[22\.2rem\] {
+    right: 22.2rem;
+  }
+  .right-\[22\.5rem\] {
+    right: 22.5rem;
+  }
+  .right-\[22rem\] {
+    right: 22rem;
+  }
+  .right-\[23rem\] {
+    right: 23rem;
+  }
   .right-\[26rem\] {
     right: 26rem;
+  }
+  .bottom-0 {
+    bottom: calc(var(--spacing) * 0);
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
@@ -653,12 +719,6 @@
   .w-28 {
     width: calc(var(--spacing) * 28);
   }
-  .w-48 {
-    width: calc(var(--spacing) * 48);
-  }
-  .w-56 {
-    width: calc(var(--spacing) * 56);
-  }
   .w-60 {
     width: calc(var(--spacing) * 60);
   }
@@ -673,6 +733,9 @@
   }
   .w-100 {
     width: calc(var(--spacing) * 100);
+  }
+  .w-\[21rem\] {
+    width: 21rem;
   }
   .w-\[22rem\] {
     width: 22rem;

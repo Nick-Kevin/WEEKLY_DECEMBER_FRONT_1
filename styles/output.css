@@ -906,6 +906,11 @@
       gap: calc(var(--spacing) * 8);
     }
   }
+  .lg\:px-28 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 28);
+    }
+  }
   .lg\:pt-0 {
     @media (width >= 64rem) {
       padding-top: calc(var(--spacing) * 0);

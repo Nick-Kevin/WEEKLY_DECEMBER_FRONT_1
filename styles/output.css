@@ -525,9 +525,6 @@
   .collapse {
     visibility: collapse;
   }
-  .visible {
-    visibility: visible;
-  }
   .absolute {
     position: absolute;
   }
@@ -681,6 +678,9 @@
   .mb-11 {
     margin-bottom: calc(var(--spacing) * 11);
   }
+  .ml-8 {
+    margin-left: calc(var(--spacing) * 8);
+  }
   .ml-11 {
     margin-left: calc(var(--spacing) * 11);
   }
@@ -713,6 +713,9 @@
   }
   .h-20 {
     height: calc(var(--spacing) * 20);
+  }
+  .h-full {
+    height: 100%;
   }
   .w-3 {
     width: calc(var(--spacing) * 3);
@@ -789,15 +792,38 @@
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
   .rounded {
     border-radius: 0.25rem;
   }
+  .rounded-lg {
+    border-radius: var(--radius-lg);
+  }
+  .rounded-xl {
+    border-radius: var(--radius-xl);
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-y {
+    border-block-style: var(--tw-border-style);
+    border-block-width: 1px;
+  }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-white {
+    border-color: var(--color-white);
   }
   .bg-\[\#303030\] {
     background-color: #303030;
@@ -805,8 +831,29 @@
   .bg-black {
     background-color: var(--color-black);
   }
+  .bg-black\/80 {
+    background-color: color-mix(in oklab, var(--color-black) 80%, transparent);
+  }
   .bg-white {
     background-color: var(--color-white);
+  }
+  .bg-white\/60 {
+    background-color: color-mix(in oklab, var(--color-white) 60%, transparent);
+  }
+  .bg-white\/70 {
+    background-color: color-mix(in oklab, var(--color-white) 70%, transparent);
+  }
+  .bg-white\/80 {
+    background-color: color-mix(in oklab, var(--color-white) 80%, transparent);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
   }
   .px-7 {
     padding-inline: calc(var(--spacing) * 7);
@@ -819,6 +866,9 @@
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
+  }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
@@ -880,6 +930,9 @@
   .pl-15 {
     padding-left: calc(var(--spacing) * 15);
   }
+  .text-center {
+    text-align: center;
+  }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
@@ -922,6 +975,9 @@
   .text-\[\#303030\] {
     color: #303030;
   }
+  .text-black {
+    color: var(--color-black);
+  }
   .text-white {
     color: var(--color-white);
   }
@@ -930,6 +986,15 @@
   }
   .opacity-50 {
     opacity: 50%;
+  }
+  .opacity-70 {
+    opacity: 70%;
+  }
+  .opacity-80 {
+    opacity: 80%;
+  }
+  .opacity-90 {
+    opacity: 90%;
   }
   .opacity-100 {
     opacity: 100%;
@@ -955,18 +1020,6 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
-  .delay-1000 {
-    transition-delay: 1000ms;
-  }
-  .delay-150 {
-    transition-delay: 150ms;
-  }
-  .delay-700 {
-    transition-delay: 700ms;
-  }
-  .delay-\[500ms\] {
-    transition-delay: 500ms;
-  }
   .duration-300 {
     --tw-duration: 300ms;
     transition-duration: 300ms;
@@ -974,18 +1027,6 @@
   .duration-500 {
     --tw-duration: 500ms;
     transition-duration: 500ms;
-  }
-  .duration-700 {
-    --tw-duration: 700ms;
-    transition-duration: 700ms;
-  }
-  .duration-1000 {
-    --tw-duration: 1000ms;
-    transition-duration: 1000ms;
-  }
-  .ease-in-out {
-    --tw-ease: var(--ease-in-out);
-    transition-timing-function: var(--ease-in-out);
   }
   .ease-out {
     --tw-ease: var(--ease-out);
@@ -995,6 +1036,13 @@
     &:hover {
       @media (hover: hover) {
         background-color: color-mix(in oklab, var(--color-black) 60%, transparent);
+      }
+    }
+  }
+  .hover\:bg-white {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-white);
       }
     }
   }
@@ -1186,6 +1234,11 @@
       left: auto;
     }
   }
+  .lg\:col-span-2 {
+    @media (width >= 64rem) {
+      grid-column: span 2 / span 2;
+    }
+  }
   .lg\:mx-28 {
     @media (width >= 64rem) {
       margin-inline: calc(var(--spacing) * 28);
@@ -1229,6 +1282,11 @@
   .lg\:w-\[22rem\] {
     @media (width >= 64rem) {
       width: 22rem;
+    }
+  }
+  .lg\:grid-cols-5 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
     }
   }
   .lg\:items-center {

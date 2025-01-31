@@ -105,31 +105,15 @@ body {
     background-color: var(--primary-2);
 }
 
-footer > div:nth-child(2) {
-    grid-template-columns: 20% 20% 20% 40%;
-}
-
-footer h5 {
-    border-bottom: 1px solid rgb(74, 74, 74);
-}
-
-footer h5, footer > p {
-    border-top: 1px solid rgb(74, 74, 74);
-}
-
-footer ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-footer ul li {
-    cursor: pointer;
-    margin-bottom: 16px;
-}
-
-footer > div:nth-child(2) > div:nth-child(3) div div {
-    padding: 1px;
-    background: linear-gradient(282.45deg, #6C6C6C 7.11%, #303030 70.26%);
+.contact-card::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    border: 1px solid transparent;
+    background: linear-gradient(135deg, transparent 30%, #6C6C6C) border-box;
+    border-radius: 15px;
+    mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+    mask-composite: exclude;
 }
 
 .container-pack{

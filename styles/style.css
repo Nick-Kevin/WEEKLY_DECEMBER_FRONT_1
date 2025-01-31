@@ -24,6 +24,33 @@ body {
     overflow-x: hidden;
 }
 
+.hidden-animation {
+    transition: all 1s ease-out;
+    opacity: 0;
+    transform: translateX(30vw);
+}
+
+.hidden-animation.business {
+    transition-delay: 200ms;
+}
+
+.hidden-animation.statistic {
+    transition-delay: 400ms;
+}
+
+.hidden-animation.bar {
+    transition-delay: 600ms;
+}
+
+.hidden-animation.earn {
+    transition-delay: 800ms;
+}
+
+.reveal {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 .bg-primary-1 {
     background-color: var(--primary-1);
 }

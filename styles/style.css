@@ -27,7 +27,7 @@ body {
 .hidden-animation {
     transition: all 1s ease-out;
     opacity: 0;
-    transform: translateX(30vw);
+    transform: translateY(-150px);
 }
 
 .hidden-animation.business {
@@ -48,7 +48,7 @@ body {
 
 .reveal {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .bg-primary-1 {

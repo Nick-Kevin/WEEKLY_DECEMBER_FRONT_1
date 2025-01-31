@@ -8,11 +8,6 @@
     <link href="./styles/output.css" rel="stylesheet">
     <link
       rel="stylesheet"
-      href="styles/responsive-main.css"
-      media="(orientation: portrait), (max-width: 1133px)"
-    />
-    <link
-      rel="stylesheet"
       href="styles/responsive-landing.css"
       media="(orientation: portrait), (max-width: 1133px)"
     />
@@ -22,7 +17,7 @@
   </head>
   <body>
     <header
-      class="flex justify-between items-center fixed top-0 left-0 w-full z-50 py-5 md:py-9 2xl:py-14 px-8 md:px-16 lg:px-28 xl:px-48 2xl:px-56 transition-all duration-1000"
+      class="flex justify-between items-center fixed top-0 left-0 w-full z-50 py-5 md:py-9 2xl:py-14   lg:px-28 xl:px-48 2xl:px-56 transition-all duration-500"
     >
       <div class="flex items-center gap-1 pt-1 lg:pt-0">
         <img src="./assets/svg/Logo.svg" alt="Logo" class="w-9 lg:w-10">
@@ -58,115 +53,98 @@
       </div>
     </header>
 
-    <main class="ml-15 mr-15">
-      <div id="heading" class="grid-display">
-        <div class="pt-12 pb-7 p-relative">
+    <main>
+      <section class="relative px-8 md:px-16 lg:px-28 xl:px-48 2xl:px-56 pt-32 md:pt-48 2xl:pt-60">
+        <div class="relative md:w-8/12 lg:w-6/12 lg:pr-5 xl:pr-10 2xl:pr-48">
           <img
             id="g-2457"
             src="assets/svg/Heading/Group 2457.svg"
             alt="plus 1"
-            class="p-absolute"
+            class="absolute"
           />
           <img
             id="g-2456"
             src="assets/svg/Heading/Group 2456.svg"
             alt="plus 2"
-            class="p-absolute"
+            class="absolute"
           />
           <img
             id="e-276"
             src="assets/svg/Heading/Ellipse 276.svg"
             alt="ellipse 1"
-            class="p-absolute"
+            class="absolute"
           />
           <img
             id="p-17"
             src="assets/svg/Heading/Polygon 17.svg"
             alt="polygon 1"
-            class="p-absolute"
+            class="absolute"
           />
           <img
             id="p-18"
             src="assets/svg/Heading/Polygon 18.svg"
             alt="polygon 2"
-            class="p-absolute"
+            class="absolute"
           />
-          <h1 class="jost-font mb-5">
+          <h1 class="jost-font mb-5 2xl:mb-8 text-3xl md:text-[2.5rem] 2xl:text-5xl font-black md:w-10/12 2xl:leading-tight">
             The CRM Platform Your Whole Business Will Love
           </h1>
-          <p class="text-capitalize mb-5">
+          <p class="text-capitalize mb-8 2xl:mb-12 text-base md:text-lg font-light">
             Provide excellent customer service. Answer more tickets all-in-one
             Primarily software.
           </p>
-          <div id="link" class="flex-display align-items-center">
-            <button class="br-1 bg-black text-white mr-5">Get Started</button>
-            <a href="#" class="text-black-1">How it work</a>
+          <div id="link" class="flex justify-center md:justify-start items-center">
+            <button class="rounded bg-[#303030] hover:bg-black/60 transition-all duration-300 text-white py-3 px-8 cursor-pointer text-xs md:text-sm font-bold">Get Started</button>
+            <a href="#" class="text-[#303030] text-xs sm:text-sm font-bold hover:underline transition-all px-8">How it work</a>
           </div>
           <div
             id="five-stars"
-            class="flex-display justify-content-between mt-7 pt-7"
+            class="flex justify-between md:justify-start md:gap-5 mt-7 pt-7"
           >
-            <img src="assets/svg/Heading/Group.svg" alt="group" />
-            <img src="assets/svg/Heading/spring.svg" alt="spring" />
-            <div class="pl-5">
-              <h3>5 Star Awards</h3>
-              <p class="text-capitalize">for customer services</p>
-              <img src="assets/svg/Heading/Star.svg" alt="stars" />
+            <img src="assets/svg/Heading/branch-1.svg" alt="branch" class="h-16 md:h-[5.5rem]" />
+            <img src="assets/svg/Heading/spring.svg" alt="spring" class="h-20 md:h-[6.5rem] relative" />
+            <div id="awards" class="pl-6 flex flex-col justify-between h-16 md:h-[5.5rem] relative">
+              <h3 class="text-lg md:text-2xl font-bold">5 Star Awards</h3>
+              <p class="text-capitalize text-xs md:text-sm">for customer services</p>
+              <img src="assets/svg/Heading/Star.svg" alt="stars" class="w-28 md:w-32" />
             </div>
-            <img src="assets/svg/Heading/Group(1).svg" alt="group" />
+            <img src="assets/svg/Heading/branch-2.svg" alt="branch" class="h-16 md:h-[5.5rem]" />
           </div>
         </div>
-        <div class="p-relative">
-          <img
-            id="pattern"
-            src="assets/svg/Heading/Pattern-2.svg"
-            alt="pattern 2"
-            class="p-absolute"
-          />
-          <img
-            id="bg-heading"
-            src="assets/svg/Heading/Background.svg"
-            alt="heading background"
-            class="p-absolute zindex-1"
-          />
-          <img
-            id="e-277"
-            src="assets/svg/Heading/Ellipse 277.svg"
-            alt="ellipse 2"
-            class="p-absolute"
-          />
-          <img
-            id="img-1"
-            src="assets/svg/Heading/1.svg"
-            alt="line chart 1"
-            class="p-absolute zindex-1"
-          />
-          <img
-            id="img-2"
-            src="assets/svg/Heading/2.svg"
-            alt="line chart 2"
-            class="p-absolute zindex-1"
-          />
-          <img
-            id="img-3"
-            src="assets/svg/Heading/3.svg"
-            alt="pie chart"
-            class="p-absolute zindex-1"
-          />
-          <img
-            id="img-4"
-            src="assets/svg/Heading/4.svg"
-            alt="earned this month"
-            class="p-absolute zindex-1"
-          />
-          <img
-            id="img-5"
-            src="assets/svg/Heading/5.svg"
-            alt="line chart 3"
-            class="p-absolute zindex-1"
-          />
-        </div>
-      </div>
+      <img
+        id="pattern"
+        src="assets/svg/Heading/Pattern-2.svg"
+        alt="pattern 2"
+        class="absolute"
+      />
+      <img src="assets/svg/Heading/Background.svg" alt="heading background" class="hidden md:block absolute top-0 right-0 z-0 w-[62%]" />
+      <img
+        id="e-277"
+        src="assets/svg/Heading/Ellipse 277.svg"
+        alt="ellipse 2"
+        class="absolute"
+      />
+      <img src="assets/svg/Heading/bar-chart-1.svg" alt="bar chart 1" class="hidden md:block absolute top-32 right-[26rem] z-10 w-[22rem]" />
+      <img
+        id="img-2"
+        src="assets/svg/Heading/2.svg"
+        alt="line chart 2"
+        class="absolute zindex-1"
+      />
+      <img
+        id="img-3"
+        src="assets/svg/Heading/3.svg"
+        alt="pie chart"
+        class="absolute zindex-1"
+      />
+      <img src="assets/svg/Heading/amount.svg" alt="earned this month" class="hidden md:block absolute z-10 top-28 right-56 w-60" />
+      <img
+        id="img-5"
+        src="assets/svg/Heading/5.svg"
+        alt="line chart 3"
+        class="absolute zindex-1"
+      />
+    </section>
 
       <div id="features" class="grid-display justify-content-center mt-15 mb-6">
         <div class="center-text">

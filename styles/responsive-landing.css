@@ -2,12 +2,6 @@
     text-align: start !important;
 }
 
-header {
-    position: fixed;
-    background-color: var(--white-color);
-    z-index: 99999;
-}
-
 #heading {
     grid-template-columns: 100% !important;
     padding-top: 64px !important;

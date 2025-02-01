@@ -1,4 +1,5 @@
 const hiddenElements = document.querySelectorAll('.hidden-animation')
+const premiumFeaturesCards = document.querySelectorAll('.hidden-down')
 
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -10,5 +11,9 @@ const observer = new IntersectionObserver(entries => {
 })
 
 hiddenElements.forEach(element => {
+    observer.observe(element)
+})
+
+premiumFeaturesCards.forEach(element => {
     observer.observe(element)
 })

@@ -3,8 +3,6 @@
 
 :root {
     --white-color: #FDFDFD;
-    --black-color-1: rgba(48, 48, 48, 1);
-    --black-color-2: rgba(78, 78, 78, 1);
     --primary-1: hsl(191, 100%, 64%);
     --primary-2: #4FFFDF;
     --primary-3: #303030;
@@ -20,8 +18,13 @@
 body {
     background-color: var(--white-color);
     font-family: var(--open-sans), poppins, Arial, roboto, Helvetica, sans-serif;
-    color: var(--black-color-1);
+    color: var(--secondary-1);
     overflow-x: hidden;
+    text-transform: capitalize;
+}
+
+.jost-font, a, button {
+    font-family: var(--jost);
 }
 
 .hidden-animation {
@@ -46,203 +49,22 @@ body {
     transition-delay: 800ms;
 }
 
+.hidden-down {
+    transform: translateY(80px);
+}
+
 .reveal {
     opacity: 1;
     transform: translateY(0);
 }
 
-.bg-primary-1 {
-    background-color: var(--primary-1);
-}
-
-.bg-primary-2 {
-    background-color: var(--primary-2);
-}
-
-.bg-primary-3 {
-    background-color: var(--primary-3);
-}
-
-.bg-secondary-1 {
-    background-color: var(--secondary-1);
-}
-
-.bg-secondary-2 {
-    background-color: var(--secondary-2);
-}
-
-.bg-secondary-3 {
-    background-color: var(--secondary-3);
-}
-
-.bg-secondary-4 {
-    background-color: var(--secondary-4);
-}
-
-.jost-font, a, button {
-    font-family: var(--jost);
-}
-
-.text-white {
-    color: var(--white-color);
-}
-
-.text-black-1 {
-    color: var(--black-color-1);
-}
-
-.text-black-2 {
-    color: var(--black-color-2);
-}
-
-#awards::before {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 1px;
-    height: 92%;
-    background-color: var(--primary-2);
-}
-
-.contact-card::before {
+.contact-card::after {
     position: absolute;
     content: "";
     inset: 0;
-    border: 1px solid transparent;
-    background: linear-gradient(135deg, transparent 30%, #6C6C6C) border-box;
-    border-radius: 15px;
-    mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+    border-radius: 25px;
+    padding: 1px;
+    background-image: linear-gradient(137deg, #303030, #4E4E4E);
+    mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
     mask-composite: exclude;
-}
-
-.container-pack{
-    position: relative;
-    margin-bottom: 100px;
-    padding-left: 141px;
-    padding-right: 125px;
-    min-height: 1400px;
-    
-}
-
-.wrapper-pack{
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(10, minmax(0, 1fr));
-    
-}
-
-.pack-title{
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    text-align: center;
-    margin-right: -10px;
-    grid-column-start: 3;
-    grid-column-end: 9;
-    margin-bottom: 36px;
-}
-
-.pack-content{
-    position: relative;
-    grid-column: 1/-1;
-    padding-inline: 100px;
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(10, minmax(0, 1fr));
-}
-
-.bg-blue{
-    grid-column: 1/-1;
-    border-radius: 30px;
-    height: 533px;
-    background-color: rgba(73, 222, 255,72%);
-}
-
-.pack{
-    grid-column-start: 2;
-    grid-column-end: 10;
-    position: absolute;
-    top: 118px;
-    margin-inline: -32px;
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.starter-pack{
-    grid-column-start:1 ;
-    margin-right: 32px;
-}
-
-.professional-pack {
-    grid-column-start: 2;
-    margin-left: 32px;
-}
-
-.card-pack{
-    border: 1px solid #EBEBEB;
-    box-shadow: 0px 28px 57px 0px rgba(190, 190, 190, 0.25);
-    background-color: white;
-    border-radius: 30px;
-    padding: 63px 62px;
-}
-
-.card-debit{
-    margin-bottom: 23px;
-}
-
-.card-description{
-    margin-bottom: 34px;
-}
-
-.card-divider{
-    width: 100%;
-    border: 1px solid #CCCCCC;
-    margin-bottom: 21px;
-}
-
-.card-details{
-    margin-bottom: 18px;
-}
-
-.card-details-list{
-    padding: 0;
-    list-style: none;
-}
-
-.card-details-list > li{
-    font-size: 20px;
-    color: #4E4E4E;
-    font-style: normal;
-    font-weight: 400;
-    margin-bottom: 4px;
-}
-
-.card-details-list >li >img{
-    margin-right: 30px;
-}
-
-.card-btn{
-    background-color: #EAEAEA;
-    color: #303030;
-    font-size: 20px;
-    font-family: var(--jost);
-    font-weight: 600;
-    text-align: center;
-    padding-block: 26px;
-    border-radius: 15px;
-    width: 100%;
-}
-
-.card-btn-professional{
-    background-color:#303030;
-    color: white;
-    font-size: 20px;
-    font-family: var(--jost);
-    font-weight: 600;
-    text-align: center;
-    padding-block: 26px;
-    border-radius: 15px;
-    width: 100%;
 }

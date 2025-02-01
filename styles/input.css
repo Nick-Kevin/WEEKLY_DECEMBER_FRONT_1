@@ -1,5 +1,45 @@
 @import "tailwindcss";
 
+:root {
+    --white-color: #FDFDFD;
+    --primary-1: hsl(191, 100%, 64%);
+    --primary-2: #4FFFDF;
+    --primary-3: #303030;
+    --secondary-1: #4E4E4E;
+    --secondary-2: #DEDEDE;
+    --secondary-3: #F4F4F4;
+    --secondary-4: #F9F9F9;
+    --line-color: #C1C1C1;
+}
+
 @theme {
     --breakpoint-3xl: 137rem;
+}
+
+header {
+    @apply text-[#303030];
+}
+
+h1 {
+    @apply text-3xl md:text-[2.6rem] 2xl:text-5xl 3xl:text-8xl font-semibold 2xl:leading-tight 3xl:leading-normal text-[#303030];
+}
+
+h2 {
+    @apply mb-5 text-xl lg:text-3xl font-semibold text-[#303030];
+}
+
+h3 {
+    @apply text-lg md:text-2xl 3xl:text-7xl font-bold;
+}
+
+h4 {
+    @apply text-xl text-[#303030] font-medium;
+}
+
+p {
+    @apply leading-2 lg:leading-6 text-xs md:text-sm 2xl:text-base 3xl:text-lg;
+}
+
+.hidden-down {
+    @apply rounded-lg px-8 md:px-4 lg:px-8 py-9 md:py-6 lg:py-9 hover:scale-105 transition-all duration-500 opacity-0 shadow-lg;
 }

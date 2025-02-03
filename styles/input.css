@@ -20,12 +20,16 @@ header {
     @apply text-[#303030];
 }
 
+section {
+    @apply px-8 sm:px-16 lg:px-28 xl:px-48 2xl:px-56 3xl:px-96 pt-14 md:pt-16 lg:pt-24 3xl:pt-48;
+}
+
 h1 {
     @apply text-3xl md:text-[2.6rem] 2xl:text-5xl 3xl:text-8xl font-semibold 2xl:leading-tight 3xl:leading-normal text-[#303030];
 }
 
 h2 {
-    @apply mb-5 text-xl lg:text-3xl font-semibold text-[#303030];
+    @apply mb-5 2xl:mb-16 3xl:mb-20 text-2xl lg:text-3xl 3xl:text-[5rem] font-semibold text-[#303030];
 }
 
 h3 {
@@ -33,13 +37,13 @@ h3 {
 }
 
 h4 {
-    @apply text-xl text-[#303030] font-medium;
+    @apply text-lg lg:text-xl 3xl:text-4xl mb-1 3xl:mb-5 text-[#303030] font-medium;
 }
 
 p {
-    @apply leading-2 lg:leading-6 text-xs md:text-sm 2xl:text-base 3xl:text-lg;
+    @apply leading-5 lg:leading-6 text-xs md:text-sm 2xl:text-base 3xl:text-lg;
 }
 
 .hidden-down {
-    @apply rounded-lg px-8 md:px-4 lg:px-8 py-9 md:py-6 lg:py-9 hover:scale-105 transition-all duration-500 opacity-0 shadow-lg;
+    @apply rounded-lg px-8 md:px-4 lg:px-8 2xl:px-14 3xl:p-28 py-9 md:py-6 lg:py-9 2xl:py-16 transition-all duration-500 opacity-0 shadow-lg;
 }

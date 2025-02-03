@@ -53,6 +53,16 @@ body {
     transform: translateY(80px);
 }
 
+.hidden-down.delay-200 {
+    box-shadow: 0px 20px 30px #00000010;
+}
+
+@media (min-width: 137rem) {
+    .hidden-down.delay-200 {
+        box-shadow: 0px 50px 70px #00000010;
+    }
+}
+
 .reveal {
     opacity: 1;
     transform: translateY(0);

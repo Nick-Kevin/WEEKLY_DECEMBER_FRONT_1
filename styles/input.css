@@ -24,6 +24,10 @@ section {
     @apply px-8 sm:px-16 lg:px-28 xl:px-48 2xl:px-56 3xl:px-96 pt-14 md:pt-16 lg:pt-24 3xl:pt-48;
 }
 
+section.more-top-space {
+    @apply lg:mt-12 xl:mt-16 2xl:mt-20 3xl:mt-36;
+}
+
 h1 {
     @apply text-3xl md:text-[2.6rem] 2xl:text-5xl 3xl:text-8xl font-semibold 2xl:leading-tight 3xl:leading-normal text-[#303030];
 }

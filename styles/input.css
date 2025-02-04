@@ -41,7 +41,7 @@ h4 {
 }
 
 p {
-    @apply leading-5 lg:leading-6 text-xs md:text-sm 2xl:text-base 3xl:text-lg;
+    @apply leading-5 lg:leading-6 3xl:leading-9 text-xs md:text-sm 2xl:text-base 3xl:text-xl;
 }
 
 .hidden-down {

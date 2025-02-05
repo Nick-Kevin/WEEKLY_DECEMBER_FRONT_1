@@ -261,6 +261,10 @@ backdrop-filter: blur(21.438478469848633px)
   height: 100%;
 }
 
+.bottom-line:nth-child(even)::after {
+  right: 0;
+}
+
 .bottom-line.fade-width::after {
   width: 100%;
 }

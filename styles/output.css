@@ -801,9 +801,6 @@
   .w-9 {
     width: calc(var(--spacing) * 9);
   }
-  .w-28 {
-    width: calc(var(--spacing) * 28);
-  }
   .w-100 {
     width: calc(var(--spacing) * 100);
   }
@@ -818,6 +815,9 @@
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
+  }
+  .w-28 {
+    width: calc(var(--spacing) * 28);
   }
   .w-56 {
     width: calc(var(--spacing) * 56);
@@ -2176,6 +2176,11 @@
       margin-block: calc(var(--spacing) * 20);
     }
   }
+  .\32 xl\:mt-14 {
+    @media (width >= 96rem) {
+      margin-top: calc(var(--spacing) * 14);
+    }
+  }
   .\32 xl\:mt-16 {
     @media (width >= 96rem) {
       margin-top: calc(var(--spacing) * 16);
@@ -2291,9 +2296,49 @@
       padding-inline: calc(var(--spacing) * 16);
     }
   }
+  .\32 xl\:px-28 {
+    @media (width >= 96rem) {
+      padding-inline: calc(var(--spacing) * 28);
+    }
+  }
   .\32 xl\:px-56 {
     @media (width >= 96rem) {
       padding-inline: calc(var(--spacing) * 56);
+    }
+  }
+  .\32 xl\:px-72 {
+    @media (width >= 96rem) {
+      padding-inline: calc(var(--spacing) * 72);
+    }
+  }
+  .\32 xl\:px-80 {
+    @media (width >= 96rem) {
+      padding-inline: calc(var(--spacing) * 80);
+    }
+  }
+  .\32 xl\:px-96 {
+    @media (width >= 96rem) {
+      padding-inline: calc(var(--spacing) * 96);
+    }
+  }
+  .\32 xl\:px-\[25rem\] {
+    @media (width >= 96rem) {
+      padding-inline: 25rem;
+    }
+  }
+  .\32 xl\:px-\[26rem\] {
+    @media (width >= 96rem) {
+      padding-inline: 26rem;
+    }
+  }
+  .\32 xl\:px-\[28rem\] {
+    @media (width >= 96rem) {
+      padding-inline: 28rem;
+    }
+  }
+  .\32 xl\:px-\[29rem\] {
+    @media (width >= 96rem) {
+      padding-inline: 29rem;
     }
   }
   .\32 xl\:py-9 {

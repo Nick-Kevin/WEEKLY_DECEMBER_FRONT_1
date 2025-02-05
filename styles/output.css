@@ -657,6 +657,9 @@
   .my-6 {
     margin-block: calc(var(--spacing) * 6);
   }
+  .my-10 {
+    margin-block: calc(var(--spacing) * 10);
+  }
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
   }
@@ -665,6 +668,12 @@
   }
   .mt-2\.5 {
     margin-top: calc(var(--spacing) * 2.5);
+  }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+  .mt-3\.5 {
+    margin-top: calc(var(--spacing) * 3.5);
   }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
@@ -807,6 +816,12 @@
   .w-12 {
     width: calc(var(--spacing) * 12);
   }
+  .w-14 {
+    width: calc(var(--spacing) * 14);
+  }
+  .w-16 {
+    width: calc(var(--spacing) * 16);
+  }
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
@@ -834,6 +849,14 @@
   .border-collapse {
     border-collapse: collapse;
   }
+  .translate-x-4 {
+    --tw-translate-x: calc(var(--spacing) * 4);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-10 {
+    --tw-translate-x: calc(var(--spacing) * 10);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .scale-110 {
     --tw-scale-x: 110%;
     --tw-scale-y: 110%;
@@ -844,6 +867,18 @@
     --tw-scale-x: 125%;
     --tw-scale-y: 125%;
     --tw-scale-z: 125%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+  .scale-130 {
+    --tw-scale-x: 130%;
+    --tw-scale-y: 130%;
+    --tw-scale-z: 130%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+  .scale-135 {
+    --tw-scale-x: 135%;
+    --tw-scale-y: 135%;
+    --tw-scale-z: 135%;
     scale: var(--tw-scale-x) var(--tw-scale-y);
   }
   .transform {
@@ -902,6 +937,15 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-12 {
+    gap: calc(var(--spacing) * 12);
+  }
+  .gap-14 {
+    gap: calc(var(--spacing) * 14);
+  }
+  .gap-16 {
+    gap: calc(var(--spacing) * 16);
   }
   .rounded {
     border-radius: 0.25rem;
@@ -1114,10 +1158,6 @@
   }
   .opacity-100 {
     opacity: 100%;
-  }
-  .shadow {
-    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .outline {
     outline-style: var(--tw-outline-style);
@@ -1539,9 +1579,34 @@
       margin-top: calc(var(--spacing) * 8);
     }
   }
+  .lg\:mr-10 {
+    @media (width >= 64rem) {
+      margin-right: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:mr-12 {
+    @media (width >= 64rem) {
+      margin-right: calc(var(--spacing) * 12);
+    }
+  }
   .lg\:mr-14 {
     @media (width >= 64rem) {
       margin-right: calc(var(--spacing) * 14);
+    }
+  }
+  .lg\:mr-16 {
+    @media (width >= 64rem) {
+      margin-right: calc(var(--spacing) * 16);
+    }
+  }
+  .lg\:mr-20 {
+    @media (width >= 64rem) {
+      margin-right: calc(var(--spacing) * 20);
+    }
+  }
+  .lg\:mr-24 {
+    @media (width >= 64rem) {
+      margin-right: calc(var(--spacing) * 24);
     }
   }
   .lg\:block {
@@ -1796,6 +1861,11 @@
   .xl\:px-48 {
     @media (width >= 80rem) {
       padding-inline: calc(var(--spacing) * 48);
+    }
+  }
+  .xl\:py-3 {
+    @media (width >= 80rem) {
+      padding-block: calc(var(--spacing) * 3);
     }
   }
   .xl\:py-10 {
@@ -2610,6 +2680,21 @@ p {
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
+@property --tw-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
 @property --tw-scale-x {
   syntax: "*";
   inherits: false;
@@ -2658,61 +2743,6 @@ p {
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
-@property --tw-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
-}
-@property --tw-shadow-color {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-inset-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
-}
-@property --tw-inset-shadow-color {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-ring-color {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-ring-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
-}
-@property --tw-inset-ring-color {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-inset-ring-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
-}
-@property --tw-ring-inset {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-ring-offset-width {
-  syntax: "<length>";
-  inherits: false;
-  initial-value: 0px;
-}
-@property --tw-ring-offset-color {
-  syntax: "*";
-  inherits: false;
-  initial-value: #fff;
-}
-@property --tw-ring-offset-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
 }
 @property --tw-outline-style {
   syntax: "*";

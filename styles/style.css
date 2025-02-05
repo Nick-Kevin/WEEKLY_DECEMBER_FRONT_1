@@ -73,6 +73,16 @@ body {
     transform: translateY(0);
 }
 
+.hidden-right {
+  transform: translateX(200px);
+  transition: all 2s;
+}
+
+.reveal-crm {
+  opacity: 1;
+  transform: translateX(2rem);
+}
+
 .contact-card::after {
     position: absolute;
     content: "";

@@ -9,5 +9,4 @@ const barObserver = new IntersectionObserver(entries => {
     })
 })
 
-console.log(progressBar)
 progressBar.forEach(element => barObserver.observe(element))

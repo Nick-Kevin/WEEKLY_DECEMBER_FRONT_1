@@ -55,3 +55,11 @@ p {
 .cores-features-card {
     @apply border-t border-r border-white;
 }
+
+.client-logo-container {
+    @apply flex justify-center items-center relative h-28;
+}
+
+.client-logo {
+    @apply w-28;
+}

@@ -95,17 +95,6 @@ body {
   }
 }
 
-.contact-card::after {
-    position: absolute;
-    content: "";
-    inset: 0;
-    border-radius: 25px;
-    padding: 1px;
-    background-image: linear-gradient(137deg, #303030, #4E4E4E);
-    mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-    mask-composite: exclude;
-}
-
 #burger-menu {
     cursor: pointer;
     height: 27px;
@@ -198,17 +187,6 @@ body {
 backdrop-filter: blur(21.438478469848633px)
 }
 
-.progress-bar::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    border-radius: 0.5rem;
-    transition: width 1s ease-in;
-}
-
 .fade-width-bar#lead::after {
     background-color: #49DDE2;
     width: 80%;
@@ -227,4 +205,44 @@ backdrop-filter: blur(21.438478469848633px)
 .fade-width-bar#supply::after {
     background-color: #FF6F89;
     width: 60%;
+}
+
+.progress-bar::after,
+.contact-card::after,
+.bottom-line::after,
+.client-logo-container.border-right::after {
+  position: absolute;
+  content: "";
+}
+
+.progress-bar::after {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 0.5rem;
+  transition: width 1s ease-in;
+}
+
+.contact-card::after {
+  inset: 0;
+  border-radius: 25px;
+  padding: 1px;
+  background-image: linear-gradient(137deg, #303030, #4E4E4E);
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+}
+
+.bottom-line::after {
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-2);
+}
+
+.client-logo-container.border-right::after {
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: var(--primary-2);
 }

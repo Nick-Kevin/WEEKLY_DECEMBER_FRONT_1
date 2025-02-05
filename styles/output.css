@@ -2401,6 +2401,31 @@
       margin-block: calc(var(--spacing) * 36);
     }
   }
+  .\33 xl\:mt-6 {
+    @media (width >= 137rem) {
+      margin-top: calc(var(--spacing) * 6);
+    }
+  }
+  .\33 xl\:mt-7 {
+    @media (width >= 137rem) {
+      margin-top: calc(var(--spacing) * 7);
+    }
+  }
+  .\33 xl\:mt-8 {
+    @media (width >= 137rem) {
+      margin-top: calc(var(--spacing) * 8);
+    }
+  }
+  .\33 xl\:mt-9 {
+    @media (width >= 137rem) {
+      margin-top: calc(var(--spacing) * 9);
+    }
+  }
+  .\33 xl\:mt-10 {
+    @media (width >= 137rem) {
+      margin-top: calc(var(--spacing) * 10);
+    }
+  }
   .\33 xl\:mt-12 {
     @media (width >= 137rem) {
       margin-top: calc(var(--spacing) * 12);
@@ -2516,6 +2541,11 @@
       width: calc(var(--spacing) * 22);
     }
   }
+  .\33 xl\:w-28 {
+    @media (width >= 137rem) {
+      width: calc(var(--spacing) * 28);
+    }
+  }
   .\33 xl\:w-48 {
     @media (width >= 137rem) {
       width: calc(var(--spacing) * 48);
@@ -2524,6 +2554,11 @@
   .\33 xl\:w-\[30\%\] {
     @media (width >= 137rem) {
       width: 30%;
+    }
+  }
+  .\33 xl\:w-full {
+    @media (width >= 137rem) {
+      width: 100%;
     }
   }
   .\33 xl\:scale-150 {
@@ -2590,6 +2625,21 @@
   .\33 xl\:gap-48 {
     @media (width >= 137rem) {
       gap: calc(var(--spacing) * 48);
+    }
+  }
+  .\33 xl\:gap-x-60 {
+    @media (width >= 137rem) {
+      column-gap: calc(var(--spacing) * 60);
+    }
+  }
+  .\33 xl\:gap-x-72 {
+    @media (width >= 137rem) {
+      column-gap: calc(var(--spacing) * 72);
+    }
+  }
+  .\33 xl\:gap-x-96 {
+    @media (width >= 137rem) {
+      column-gap: calc(var(--spacing) * 96);
     }
   }
   .\33 xl\:rounded-3xl {
@@ -2676,6 +2726,16 @@
   .\33 xl\:py-56 {
     @media (width >= 137rem) {
       padding-block: calc(var(--spacing) * 56);
+    }
+  }
+  .\33 xl\:pt-32 {
+    @media (width >= 137rem) {
+      padding-top: calc(var(--spacing) * 32);
+    }
+  }
+  .\33 xl\:pt-36 {
+    @media (width >= 137rem) {
+      padding-top: calc(var(--spacing) * 36);
     }
   }
   .\33 xl\:pt-48 {

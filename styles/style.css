@@ -89,6 +89,12 @@ body {
   }
 }
 
+@media ((min-width: 64rem) and (max-width:80rem)) {
+  .reveal-crm {
+    transform: translateX(2rem);
+  }
+}
+
 .contact-card::after {
     position: absolute;
     content: "";

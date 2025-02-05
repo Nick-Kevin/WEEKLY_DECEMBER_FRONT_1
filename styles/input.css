@@ -57,9 +57,9 @@ p {
 }
 
 .client-logo-container {
-    @apply flex justify-center items-center relative h-12 sm:h-12 xl:h-28;
+    @apply flex justify-center items-center relative h-12 sm:h-12 md:h-20 xl:h-28;
 }
 
 .client-logo {
-    @apply w-12 sm:w-14 xl:w-28;
+    @apply w-12 sm:w-14 md:w-20 xl:w-28;
 }

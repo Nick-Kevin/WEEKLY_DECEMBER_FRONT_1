@@ -235,14 +235,32 @@ backdrop-filter: blur(21.438478469848633px)
 
 .bottom-line::after {
   bottom: 0;
-  width: 100%;
+  width: 0;
   height: 2px;
   background-color: var(--primary-2);
+  transition: all 2s;
 }
 
 .client-logo-container.border-right::after {
   right: 0;
   width: 2px;
-  height: 100%;
+  height: 0;
   background-color: var(--primary-2);
+  transition: all 2s;
+}
+
+.client-logo-container.border-right:nth-child(odd)::after {
+  top: 0;
+}
+
+.client-logo-container.border-right:nth-child(even)::after {
+  bottom: 0;
+}
+
+.client-logo-container.border-right.fade-height::after {
+  height: 100%;
+}
+
+.bottom-line.fade-width::after {
+  width: 100%;
 }

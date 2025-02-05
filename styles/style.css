@@ -83,7 +83,7 @@ body {
   transform: translateX(2rem);
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 64rem) {
   .hidden-right, .reveal-crm {
     transform: translateX(0);
   }

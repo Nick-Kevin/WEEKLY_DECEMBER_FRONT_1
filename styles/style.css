@@ -58,7 +58,7 @@ body {
 }
 
 @media (min-width: 137rem) {
-    .hidden-down.delay-200 {
+    #features .hidden-down.delay-200 {
         box-shadow: 0px 50px 70px #00000010;
     }
 }

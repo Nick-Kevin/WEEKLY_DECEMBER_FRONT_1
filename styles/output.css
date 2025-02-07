@@ -3063,9 +3063,24 @@
       margin-inline: calc(var(--spacing) * 56);
     }
   }
+  .\32 xl\:my-6 {
+    @media (width >= 96rem) {
+      margin-block: calc(var(--spacing) * 6);
+    }
+  }
   .\32 xl\:my-20 {
     @media (width >= 96rem) {
       margin-block: calc(var(--spacing) * 20);
+    }
+  }
+  .\32 xl\:mt-3 {
+    @media (width >= 96rem) {
+      margin-top: calc(var(--spacing) * 3);
+    }
+  }
+  .\32 xl\:mt-8 {
+    @media (width >= 96rem) {
+      margin-top: calc(var(--spacing) * 8);
     }
   }
   .\32 xl\:mt-16 {

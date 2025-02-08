@@ -269,8 +269,13 @@ backdrop-filter: blur(21.438478469848633px)
   height: 100%;
 }
 
-.bottom-line:nth-child(even)::after {
+#client-logos .bottom-line:nth-child(even)::after,
+#modules div:nth-child(even) > .bottom-line::after {
   right: 0;
+}
+
+#modules div:nth-child(odd) > .bottom-line::after {
+  left: 0;
 }
 
 .bottom-line.fade-width::after {

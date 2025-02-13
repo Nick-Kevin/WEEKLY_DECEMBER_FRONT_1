@@ -241,6 +241,10 @@ backdrop-filter: blur(21.438478469848633px)
   transition: all 2s;
 }
 
+.bottom-line.module::after {
+  height: 1px;
+}
+
 .client-logo-container.border-right::after {
   right: 0;
   width: 2px;

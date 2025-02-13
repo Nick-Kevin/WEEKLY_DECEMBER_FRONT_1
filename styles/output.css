@@ -2033,6 +2033,13 @@
       }
     }
   }
+  .md\:max-lg\:px-5 {
+    @media (width >= 48rem) {
+      @media (width < 64rem) {
+        padding-inline: calc(var(--spacing) * 5);
+      }
+    }
+  }
   .lg\:top-\[20\.8\%\] {
     @media (width >= 64rem) {
       top: 20.8%;
@@ -2462,6 +2469,13 @@
       }
     }
   }
+  .lg\:max-xl\:px-7 {
+    @media (width >= 64rem) {
+      @media (width < 80rem) {
+        padding-inline: calc(var(--spacing) * 7);
+      }
+    }
+  }
   .xl\:right-36 {
     @media (width >= 80rem) {
       right: calc(var(--spacing) * 36);
@@ -2565,6 +2579,11 @@
   .xl\:pr-10 {
     @media (width >= 80rem) {
       padding-right: calc(var(--spacing) * 10);
+    }
+  }
+  .xl\:pr-12 {
+    @media (width >= 80rem) {
+      padding-right: calc(var(--spacing) * 12);
     }
   }
   .xl\:text-xs {
@@ -2767,6 +2786,31 @@
   .\32 xl\:gap-20 {
     @media (width >= 96rem) {
       gap: calc(var(--spacing) * 20);
+    }
+  }
+  .\32 xl\:gap-28 {
+    @media (width >= 96rem) {
+      gap: calc(var(--spacing) * 28);
+    }
+  }
+  .\32 xl\:gap-36 {
+    @media (width >= 96rem) {
+      gap: calc(var(--spacing) * 36);
+    }
+  }
+  .\32 xl\:gap-40 {
+    @media (width >= 96rem) {
+      gap: calc(var(--spacing) * 40);
+    }
+  }
+  .\32 xl\:gap-56 {
+    @media (width >= 96rem) {
+      gap: calc(var(--spacing) * 56);
+    }
+  }
+  .\32 xl\:gap-60 {
+    @media (width >= 96rem) {
+      gap: calc(var(--spacing) * 60);
     }
   }
   .\32 xl\:px-8 {

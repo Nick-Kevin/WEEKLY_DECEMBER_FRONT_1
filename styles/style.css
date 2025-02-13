@@ -268,3 +268,7 @@ backdrop-filter: blur(21.438478469848633px)
 .bottom-line.fade-width::after {
   width: 100%;
 }
+
+.container-shadow {
+  box-shadow: 25px 40px 60px 0px #00000010;
+}

@@ -561,14 +561,8 @@
   .top-32 {
     top: calc(var(--spacing) * 32);
   }
-  .top-60 {
-    top: calc(var(--spacing) * 60);
-  }
   .top-\[13\.2rem\] {
     top: 13.2rem;
-  }
-  .top-\[15\.4rem\] {
-    top: 15.4rem;
   }
   .top-\[18\.7rem\] {
     top: 18.7rem;
@@ -654,14 +648,8 @@
   .col-span-10 {
     grid-column: span 10 / span 10;
   }
-  .col-span-11 {
-    grid-column: span 11 / span 11;
-  }
   .m-7 {
     margin: calc(var(--spacing) * 7);
-  }
-  .mx-5 {
-    margin-inline: calc(var(--spacing) * 5);
   }
   .mx-8 {
     margin-inline: calc(var(--spacing) * 8);
@@ -707,9 +695,6 @@
   }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
-  }
-  .mt-14 {
-    margin-top: calc(var(--spacing) * 14);
   }
   .mt-16 {
     margin-top: calc(var(--spacing) * 16);
@@ -789,9 +774,6 @@
   .h-20 {
     height: calc(var(--spacing) * 20);
   }
-  .h-\[50rem\] {
-    height: 50rem;
-  }
   .w-2 {
     width: calc(var(--spacing) * 2);
   }
@@ -870,16 +852,8 @@
   .border-collapse {
     border-collapse: collapse;
   }
-  .-translate-x-2 {
-    --tw-translate-x: calc(var(--spacing) * -2);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .-translate-x-5 {
     --tw-translate-x: calc(var(--spacing) * -5);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .translate-y-10 {
-    --tw-translate-y: calc(var(--spacing) * 10);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .translate-y-14 {
@@ -896,12 +870,6 @@
     --tw-scale-x: 110%;
     --tw-scale-y: 110%;
     --tw-scale-z: 110%;
-    scale: var(--tw-scale-x) var(--tw-scale-y);
-  }
-  .scale-125 {
-    --tw-scale-x: 125%;
-    --tw-scale-y: 125%;
-    --tw-scale-z: 125%;
     scale: var(--tw-scale-x) var(--tw-scale-y);
   }
   .transform {
@@ -973,6 +941,9 @@
   .rounded-3xl {
     border-radius: var(--radius-3xl);
   }
+  .rounded-4xl {
+    border-radius: var(--radius-4xl);
+  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
@@ -1014,9 +985,6 @@
   .bg-black {
     background-color: var(--color-black);
   }
-  .bg-red-200 {
-    background-color: var(--color-red-200);
-  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -1025,9 +993,6 @@
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
-  }
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
   }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
@@ -1074,9 +1039,6 @@
   .py-7 {
     padding-block: calc(var(--spacing) * 7);
   }
-  .py-24 {
-    padding-block: calc(var(--spacing) * 24);
-  }
   .pt-1 {
     padding-top: calc(var(--spacing) * 1);
   }
@@ -1088,9 +1050,6 @@
   }
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
-  }
-  .pt-10 {
-    padding-top: calc(var(--spacing) * 10);
   }
   .pt-12 {
     padding-top: calc(var(--spacing) * 12);
@@ -1679,11 +1638,6 @@
       @media (width < 64rem) {
         gap: calc(var(--spacing) * 10);
       }
-    }
-  }
-  .lg\:top-\[13\.2rem\] {
-    @media (width >= 64rem) {
-      top: 13.2rem;
     }
   }
   .lg\:top-\[20\.8\%\] {
@@ -2938,16 +2892,10 @@ p {
     line-height: calc(var(--spacing) * 9);
   }
 }
-.hidden-down {
+.features-card.hidden-down {
   border-radius: var(--radius-lg);
   padding-inline: calc(var(--spacing) * 8);
   padding-block: calc(var(--spacing) * 9);
-  opacity: 0%;
-  transition-property: all;
-  transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-  transition-duration: var(--tw-duration, var(--default-transition-duration));
-  --tw-duration: 500ms;
-  transition-duration: 500ms;
   @media (width >= 48rem) {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -2969,6 +2917,14 @@ p {
   @media (width >= 137rem) {
     padding: calc(var(--spacing) * 28);
   }
+}
+.hidden-down {
+  opacity: 0%;
+  transition-property: all;
+  transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+  transition-duration: var(--tw-duration, var(--default-transition-duration));
+  --tw-duration: 500ms;
+  transition-duration: 500ms;
 }
 .cores-features-card {
   border-top-style: var(--tw-border-style);

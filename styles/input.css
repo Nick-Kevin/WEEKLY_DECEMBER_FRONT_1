@@ -48,8 +48,12 @@ p {
     @apply leading-5 lg:leading-6 3xl:leading-9 text-xs md:text-sm 2xl:text-base 3xl:text-xl;
 }
 
+.features-card.hidden-down {
+    @apply rounded-lg px-8 md:px-4 lg:px-8 2xl:px-14 3xl:p-28 py-9 md:py-6 lg:py-9 2xl:py-16;
+}
+
 .hidden-down {
-    @apply rounded-lg px-8 md:px-4 lg:px-8 2xl:px-14 3xl:p-28 py-9 md:py-6 lg:py-9 2xl:py-16 transition-all duration-500 opacity-0;
+    @apply transition-all duration-500 opacity-0;
 }
 
 .cores-features-card {

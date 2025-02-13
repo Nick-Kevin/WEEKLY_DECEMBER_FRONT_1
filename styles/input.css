@@ -21,7 +21,7 @@ header {
 }
 
 section {
-    @apply px-8 sm:px-16 lg:px-28 xl:px-48 2xl:px-56 3xl:px-96 pt-14 md:pt-16 lg:pt-24 3xl:pt-48;
+    @apply px-8 sm:px-16 lg:px-28 xl:px-48 2xl:px-56 3xl:px-96 pt-14 md:pt-16 lg:pt-24 2xl:pt-36 3xl:pt-48;
 }
 
 section.more-top-space {
